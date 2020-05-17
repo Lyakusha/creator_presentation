@@ -1,3 +1,5 @@
+import {Game} from './common/game';
+
 cc.Class({
     extends: cc.Component,
 
@@ -18,10 +20,10 @@ cc.Class({
     // use this for initialization
     onLoad: function () {
         this.label.string = this.text;
-        // const game = new Game();
+        const game = new Game();
 
-        // game.words = ['слово', 'пятое', 'десятое', 'четыре', 'горизонт', 'проценты'];
-        // game.shuffle();
+        game.words = ['слово', 'пятое', 'десятое', 'четыре', 'горизонт', 'проценты'];
+        game.shuffle();
     },
 
     // called every frame
