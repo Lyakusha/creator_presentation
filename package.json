@@ -1,0 +1,22 @@
+{
+  "name": "creator_presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lyakusha/creator_presentation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lyakusha/creator_presentation/issues"
+  },
+  "dependencies": {
+    "tower-common": "git+ssh://git@gitlab.zssl.info:wordtower/common.git#develop"
+  },
+  "homepage": "https://github.com/Lyakusha/creator_presentation#readme"
+}
