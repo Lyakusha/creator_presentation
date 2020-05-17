@@ -177,7 +177,7 @@
       "array": [
         0,
         0,
-        220.83647796503186,
+        359.4140742174762,
         0,
         0,
         0,
@@ -564,7 +564,7 @@
     "_id": "6f5cteKmlPh6NGUsUqxlFR"
   },
   {
-    "__type__": "280c3rsZJJKnZ9RqbALVwtK",
+    "__type__": "204b3ww4sRMMZRKnq47Ajzk",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -574,7 +574,8 @@
     "label": {
       "__id__": 11
     },
-    "text": "Hello, world!",
-    "_id": "dcGJ+cSA5D7qNtScKfLjJJ"
+    "game": null,
+    "text": "Hello, World!",
+    "_id": "den2y8T85HMql5rxQIwMvp"
   }
 ]
