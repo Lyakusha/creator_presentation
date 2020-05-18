@@ -1,5 +1,6 @@
-import { Game, Cell } from "./common/game";
 import LetterComponent from "./LetterComponent";
+import { Game } from "./common/game/game";
+import { Cell } from "./common/game/cell";
 
 const {ccclass, property} = cc._decorator;
 
