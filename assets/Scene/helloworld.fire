@@ -367,8 +367,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -270,
+        -310,
         0,
         0,
         0,
@@ -424,8 +424,8 @@
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
+      "x": 0,
+      "y": 0
     },
     "_trs": {
       "__type__": "TypedArray",
@@ -506,6 +506,9 @@
     },
     "_enabled": true,
     "game": null,
+    "letterPrefab": {
+      "__uuid__": "eeeaf528-bf46-4b4b-868f-908cc48d1dcf"
+    },
     "_id": "8dTZE7iO1Mublo86/651C8"
   },
   {

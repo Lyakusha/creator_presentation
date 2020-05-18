@@ -1,3 +1,5 @@
+import { Cell } from "./common/game";
+
 const {ccclass, property} = cc._decorator;
 
 @ccclass
@@ -21,15 +23,15 @@ export default class LetterComponent extends cc.Component {
     @property(cc.SpriteFrame)
     openedSelectedSprite: cc.SpriteFrame = null;
  
-    @property
-    char: string = 'z';
+    @property(Cell)
+    cell: Cell = null;
 
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {}
 
     start () {
-
+        this.label.string = this.cell.char;
     }
 
     // update (dt) {}
