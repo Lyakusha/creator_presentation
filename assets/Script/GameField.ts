@@ -31,8 +31,8 @@ export default class NewClass extends cc.Component {
             const component = node.getComponent(LetterComponent);
             component.cell = cell;
 
-            node.x = node.getBoundingBoxToWorld().width * x;
-            node.y = node.getBoundingBoxToWorld().height * y;
+            node.x = node.width * x;
+            node.y = node.height * y;
             this.node.addChild(node);
         }))
     }
