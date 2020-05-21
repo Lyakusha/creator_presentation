@@ -2,7 +2,7 @@ import {WordAdder} from './word-adder';
 import {Cell} from './cell';
 import {
     getColumnHeight,
-} from '../utils';
+} from '../utils/utils-index';
 
 /**
  * @class VerticalTopAdder

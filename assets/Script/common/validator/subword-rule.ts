@@ -1,4 +1,4 @@
-import {reverseString} from '../utils';
+import {reverseString} from '../utils/utils-index';
 import {GameRule} from './game-rule';
 
 /**

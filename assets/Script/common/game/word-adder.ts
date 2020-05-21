@@ -2,7 +2,7 @@ import {
     addRow,
     getRowLeftX,
     getRowRightX
-} from '../utils';
+} from '../utils/utils-index';
 
 /**
  * @class WordAdder

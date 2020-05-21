@@ -3,7 +3,7 @@ import {WordAdder} from './word-adder';
 import {
     getColumnHeight,
     Random,
-} from '../utils';
+} from '../utils/utils-index';
 
 /**
  * @class VerticalBelowAdder

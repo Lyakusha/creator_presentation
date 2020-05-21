@@ -3,7 +3,7 @@ import {WordAdder} from './word-adder';
 import {
     Random,
     removeEmptyRows, showField,
-} from '../utils';
+} from '../utils/utils-index';
 
 /**
  * @class SimpleDropper

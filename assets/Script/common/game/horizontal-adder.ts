@@ -3,7 +3,7 @@ import {
     raiseField,
     Random,
     removeEmptyRows, showField
-} from '../utils';
+} from '../utils/utils-index';
 import {WordAdder} from './word-adder';
 
 /**

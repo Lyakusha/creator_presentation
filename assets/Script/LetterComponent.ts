@@ -1,4 +1,4 @@
-import { Cell } from "./common/game";
+import { Cell } from "./common/game/game-index";
 
 const {ccclass, property} = cc._decorator;
 
@@ -26,12 +26,34 @@ export default class LetterComponent extends cc.Component {
     @property(Cell)
     cell: Cell = null;
 
+    @property(Number)
+    x: number = 0;
+    
+    @property(Number)
+    y: number = 0;
+
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {}
 
     start () {
         this.label.string = this.cell.char;
+    }
+
+    select () {
+        this.bg.spriteFrame = this.selectedSprite;
+    }
+
+    free () {
+        console.log('free');
+        this.bg.spriteFrame = this.defaultSprite;
+    }
+
+    getPosition () { 
+        return {
+            x: this.x,
+            y: this.y
+        };
     }
 
     // update (dt) {}

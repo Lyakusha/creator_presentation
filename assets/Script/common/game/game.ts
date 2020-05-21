@@ -1,5 +1,5 @@
 import {EventEmitter} from 'events';
-import {SmartShuffler} from '../shuffler/smart-shuffler';
+import {SmartShuffler} from '../shuffler/shuffler-index';
 import {Cell} from './cell';
 import {
     alignCenter,
@@ -11,7 +11,7 @@ import {
     Random,
     restoreField,
     reverseString,
-} from '../utils';
+} from '../utils/utils-index';
 import {Position} from './position';
 import {SimpleDropper} from './simple-dropper';
 import {HorizontalAdder} from "./horizontal-adder";
